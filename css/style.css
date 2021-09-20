@@ -1,0 +1,468 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Yu Gothic;
+    height: 3453px;
+    width: 1366px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.Yu-Gotic {
+    position: relative;
+    width: 598px;
+    height: 112px;
+    left: 170px;
+    top: 61px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 112px;
+    color: #C9A78C;
+    border-radius: 50%;
+    font-size: 250%;
+}
+
+.Yu-Gotic:hover {
+    font-size: 280%;
+}
+
+.me {
+    position: relative;
+    width: 238px;
+    height: 77px;
+    left: 339px;
+    top: 150px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 77px;
+    color: #F8F5F5;
+    background: #aa5565;
+    padding: 2px;
+}
+
+.me:hover {
+    color: #C9A78C;
+    background: #F8F5F5
+}
+
+.line {
+    position: relative;
+    width: 821px;
+    height: 3px;
+    left: 50px;
+    top: -1px;
+    background-color: #AA5564;
+    border: 3px solid #AA5564;
+}
+
+.text {
+    position: relative;
+    width: 821px;
+    height: 541px;
+    left: 50px;
+    top: 180px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 58px;
+    color: #A27A5B;
+    border-radius: 50%;
+}
+
+.skill {
+    width: 166px;
+    height: 77px;
+    left: 379px;
+    top: 100px;
+    margin: 50px 0px 50px 380px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 77px;
+    color: #F8F5F5;
+    background: #AA5564;
+    padding: 2px;
+}
+
+.skill:hover {
+    color: #C9A78C;
+    background: #F8F5F5
+}
+
+.wrapper {
+    position: relative;
+    width: 926px;
+    height: 875px;
+    left: 0px;
+    top: -3106px;
+    background: #F8F5F5;
+    border: 3px solid #AA5564;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+}
+
+.photo {
+    position: relative;
+    width: 441px;
+    height: 784px;
+    left: 926px;
+    top: -4381px;
+    background: url('img/Masha1.jpg');
+    max-width: 100%;
+    background-attachment: fixed;
+}
+
+.block {
+    background-image: url('img/image 10.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-attachment: local;
+}
+
+.back {
+    position: relative;
+    width: 926px;
+    height: 3124px;
+    left: 0px;
+    top: 26px;
+    background: url('img/image 10.png');
+    border: 3px solid #AA5564;
+    box-sizing: border-box;
+    min-height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wrapper1 {
+    position: relative;
+    width: 926px;
+    height: 400px;
+    left: 0px;
+    top: -2990px;
+    background: #F8F5F5;
+    border: 3px solid #AA5564;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+}
+
+.right {
+    position: relative;
+    width: 441px;
+    height: 2450px;
+    left: 926px;
+    top: -4389px;
+    background-color: #AA5564;
+    max-width: 100%;
+    background-attachment: fixed;
+}
+
+.contacts {
+    position: relative;
+    width: 166px;
+    height: 77px;
+    left: 100px;
+    top: 70px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 77px;
+    color: #F8F5F5;
+}
+
+.telephone {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 40px;
+    top: 100px;
+    color: #A27A5B;
+}
+
+.number {
+    position: relative;
+    width: 289px;
+    height: 38px;
+    left: 100px;
+    top: 60px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #C9A78C;
+}
+
+.number:hover {
+    color: #F8F5F5;
+}
+
+.mail {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 180px;
+}
+
+.post {
+    position: relative;
+    width: 336px;
+    height: 38px;
+    left: 100px;
+    top: 100px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #C9A78C;
+}
+
+.post:hover {
+    color: #F8F5F5;
+}
+
+.git {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 80px;
+    top: 65px;
+}
+
+.github {
+    position: relative;
+    width: 148px;
+    height: 38px;
+    left: 150px;
+    top: 100px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #C9A78C;
+}
+
+.github:hover {
+    color: #F8F5F5;
+}
+
+.education {
+    position: relative;
+    width: 166px;
+    height: 77px;
+    left: 90px;
+    top: 250px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 77px;
+    color: #F8F5F5;
+}
+
+.edu {
+    position: relative;
+    width: 397px;
+    height: 152px;
+    left: 50px;
+    top: 280px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #C9A78C;
+}
+
+.list {
+    left: 13px;
+    top: 1120px;
+    margin: -60px 0px 50px 50px;
+    font-family: Yu Gothic;
+    font-size: 20px;
+    line-height: 58px;
+    color: #A27A5B;
+    text-align: left;
+}
+
+.code {
+    position: relative;
+    width: 926px;
+    height: 741px;
+    left: 0px;
+    top: -6120px;
+    background: #F8F5F5;
+    border: 3px solid #AA5564;
+    box-sizing: border-box;
+}
+
+.code1 {
+    width: 200px;
+    height: 160px;
+    left: 331px;
+    top: 1549px;
+    margin: 50px 0px 50px 350px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 77px;
+    color: #F8F5F5;
+    background: #AA5564;
+    padding: 2px;
+}
+
+.code1:hover {
+    color: #C9A78C;
+    background: #F8F5F5
+}
+
+.example {
+    margin: 20px 0px 50px 50px;
+    width: 800px;
+    height: 400px;
+    top: 50px;
+    font-size: 30px;
+    background-color: #AA5564;
+    color: #C9A78C;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.excode {
+    font-size: 15px;
+    color: #C9A78C;
+    margin: 0px 0px 0px 0px;
+}
+
+.video {
+    position: relative;
+    width: 926px;
+    height: 741px;
+    left: 0px;
+    top: -6050px;
+    background: #F8F5F5;
+    border: 3px solid #AA5564;
+    box-sizing: border-box;
+}
+
+.video1 {
+    width: 130px;
+    height: 80px;
+    left: 331px;
+    top: 1549px;
+    margin: 50px 0px 50px 410px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 77px;
+    color: #F8F5F5;
+    background: #AA5564;
+    padding: 2px;
+}
+
+.video1:hover {
+    color: #C9A78C;
+    background: #F8F5F5;
+}
+
+.my-video {
+    margin: 50px 0px 50px 180px;
+    width: 560px;
+    height: 315px;
+}
+
+.footer {
+    position: relative;
+    width: 1367px;
+    height: 250px;
+    left: 0px;
+    top: -6050px;
+    background: #AA5564;
+}
+
+.rs {
+    position: relative;
+    width: 234px;
+    height: 81px;
+    left: 1030px;
+    top: -6220px;
+    background: url(image.png);
+}
+
+.year {
+    margin: 0px 0px 0px 560px;
+    width: 108px;
+    height: 77px;
+    left: 497px;
+    top: -5900px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 77px;
+    color: #F8F5F5;
+}
+
+.contacts-list {
+    list-style: none;
+}
+
+.telega {
+    position: relative;
+    width: 289px;
+    height: 38px;
+    left: 100px;
+    top: 140px;
+    font-family: Yu Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #C9A78C;
+}
+
+.telega:hover {
+    color: #F8F5F5;
+}
+
+.teleg {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: -45px;
+    top: 260px;
+    color: #A27A5B;
+}

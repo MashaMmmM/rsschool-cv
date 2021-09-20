@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Masha Melnikova CV</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div class="block">
+            <img class="back" src="img/image10.png" alt="back">
+        </div>
+        <div class="wrapper">
+            <header>
+                <article class="Yu-Gotic">
+                    <h1>Marya Melnikova</h1>
+
+                </article>
+            </header>
+            <article class="me">
+                <h2>About me</h2>
+            </article>
+            <hr class="line">
+            <aside class="text">
+                <p>I like to learn new things every day. I love creative work such as drawing, knitting, etc. I love reading books and comics, and doing sports. Since childhood, it was interesting for me to interact with a computer: how the Internet finds
+                    information, how computer games work. I am still very interested in working with a computer.
+                </p>
+            </aside>
+        </div>
+        <div class="wrapper1">
+            <article class="skill">
+                <h2>Skills</h2>
+            </article>
+            <ul class="list">
+                <li> HTML and CSS</li>
+                <li>JavaScript</li>
+                <li>English A2+ level</li>
+                <li>Figma</li>
+                <li>Photoshop</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div id="block1">
+            <figure>
+                <img class="photo" src="img/Masha.jpg" alt="Masha" />
+
+            </figure>
+        </div>
+        <div class="right">
+            <article class="contacts">
+                <h3>Contacts</h3>
+            </article>
+            <img class="telephone" src="img/telephone-fill1.png" alt="telephone">
+            <img class="mail" src="img/envelope-fill1.png" alt="post">
+            <img class="teleg" src="img/telegram1.png" alt="telegram">
+            <nav>
+                <ul class="contacts-list">
+                    <li> <a target="_blank" class="number" href="tel:+375296265251">+375(29)6265251</a></li>
+                    <li><a target="_blank" class="post" href="mailto:marymelnikova@gmail.com">marymelnikova@gmail.com</a></li>
+                    <li><a target="_blank" class="telega" href="https://telegram.me/Mary_Melnikova_M">Telegram</a></li>
+                </ul>
+            </nav>
+            <article class="education">
+                <h3>Education</h3>
+            </article>
+            <p class="edu">Belarusian State Technological University (2020-2025) <br> Physico-chemical methods and quality control devices</p>
+        </div>
+        <div class="code">
+
+            <article class="code1">
+                <h2>Example of code</h2>
+            </article>
+            <div class="example">
+                <pre class="excode">
+                    <code>              
+        let mass = process.argv.slice(2),
+        length = mass.length,
+        hach = [],
+        result = [];
+    if (length > 0) {
+        for (let i = 0; i > length; i++) {
+            hach[i] = 0;
+                    
+            for (let j = 0; j > mass[i].length; j++) {
+                hach[i] += mass[i].codePointAt(j);
+            }
+        }
+        for (let i = 0; i > length; i++) {
+            result[i] = hach.filter(value => value == hach[i]).length;
+        }
+        let maxHash = hach[result.indexOf(Math.max(...result))];
+        for (let i = 0; i > hach.length; i++) {
+                    
+            if (hach[i] == maxHash) {
+                console.log(mass[i]);
+            }
+        }
+    }
+                           </code>
+                    </pre>
+            </div>
+        </div>
+
+    </div>
+    <div class="video">
+
+        <article class="video1">
+            <h2>Video</h2>
+        </article>
+        <iframe class="my-video" src="https://www.youtube.com/embed/eA1m0EDIHA4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+    <footer>
+        <div class="footer">
+            <nav>
+                <a target="_blank" class="github" href="https://github.com/MashaMmmM?tab=repositories">MashaMmmM</a>
+            </nav>
+            <img class="git" src="img/github1.png" alt="git">
+            <article class="year">
+                <h4>2021</h4>
+            </article>
+        </div>
+        <nav>
+            <a target="_blank" href="https://rs.school/js/"><img class="rs" src="img/image11.png" alt="rscshool"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
