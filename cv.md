@@ -17,3 +17,31 @@ I like to learn new things every day. I love creative work such as drawing, knit
 * Photoshop
 ## Education
 * Belarusian State Technological University
+## Code example 
+```
+let mass = process.argv.slice(2),
+    length = mass.length,
+    hach = [],
+    result = [];
+if (length > 0) {
+    for (let i = 0; i < length; i++) {
+        hach[i] = 0;
+
+        for (let j = 0; j < mass[i].length; j++) {
+            hach[i] += mass[i].codePointAt(j);
+        }
+    }
+    for (let i = 0; i < length; i++) {
+        result[i] = hach.filter(value => value == hach[i]).length;
+    }
+    let maxHash = hach[result.indexOf(Math.max(...result))];
+    for (let i = 0; i < hach.length; i++) {
+
+        if (hach[i] == maxHash) {
+            console.log(mass[i]);
+        }
+    }
+}
+```
+## English
+A2+ level
