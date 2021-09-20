@@ -1,1 +1,1 @@
-https://MashaMmmM.io/rsschool-cv/cv
+https://MashaMmmM.io/rsschool-cv/cv/
